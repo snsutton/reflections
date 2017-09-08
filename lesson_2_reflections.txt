@@ -25,3 +25,9 @@ Branches help to organize experimental changes or more than 1 working production
 How do the diagrams help you visualize the branch structure?
 
 Diagrams are good at explaining reachability and visualizing checkouts.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is a single branch that holds all of the changes from both original branches.
+It is represented this way in the diagram to express that only one branch now exists.
