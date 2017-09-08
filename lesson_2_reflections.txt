@@ -3,8 +3,15 @@ need to do it?
 
 A .git directory is created. It contains all of the repository metadeta which holds the history and commits.
 
+
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to track a smaller portion of
 the files that you're editing, rather than the entirety
 of the directory or repository.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By comparing the staging area to the working directory and repo using git diff, you're able to
+see all the new changes and manipulate which ones are committed.
