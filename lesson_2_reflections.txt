@@ -20,3 +20,8 @@ see all the new changes and manipulate which ones are committed.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches help to organize experimental changes or more than 1 working production version.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are good at explaining reachability and visualizing checkouts.
