@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you
+need to do it?
+
+A .git directory is created. It contains all of the repository metadeta which holds the history and commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows you to track a smaller portion of
+the files that you're editing, rather than the entirety
+of the directory or repository.
