@@ -31,3 +31,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The result is a single branch that holds all of the changes from both original branches.
 It is represented this way in the diagram to express that only one branch now exists.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The advantage to Git's sparing use of automatic merges is that bad merges become more avoidable. The disadvantage is that a programmer has to spend time deciding how to manually merge 2 commits.
