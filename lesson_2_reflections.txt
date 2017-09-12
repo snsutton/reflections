@@ -1,30 +1,26 @@
-What happens when you initialize a repository? Why do you
-need to do it?
+What happens when you initialize a repository? Why do you need to do it?
 
 A .git directory is created. It contains all of the repository metadeta which holds the history and commits.
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area allows you to track a smaller portion of
-the files that you're editing, rather than the entirety
-of the directory or repository.
+The staging area allows me to track the files that I want in the next commit rather than trying to remember what entirely changed.
 
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-By comparing the staging area to the working directory and repo using git diff, you're able to
-see all the new changes and manipulate which ones are committed.
+By diff-ing the staging area, working directory, and repo, I'm able to see all the new changes and manipulate which ones are committed.
 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-Branches help to organize experimental changes or more than 1 working production version.
+Branches help to organize experimental changes or more than one working production version. Branches deliver this ability because I'm able to checkout each branch on the fly.
 
 
 How do the diagrams help you visualize the branch structure?
 
-Diagrams are good at explaining reachability and visualizing checkouts.
+Diagrams make the concept of reachability much easier to understand.
 
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
@@ -35,4 +31,4 @@ It is represented this way in the diagram to express that only one branch now ex
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-The advantage to Git's sparing use of automatic merges is that bad merges become more avoidable. The disadvantage is that a programmer has to spend time deciding how to manually merge 2 commits.
+The advantage to Git's sparing use of automatic merges is that bad merges become more avoidable. The disadvantage is that a programmer has to spend time deciding how to manually merge two commits.
