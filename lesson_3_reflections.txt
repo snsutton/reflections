@@ -7,3 +7,8 @@ if I was contributing to a project alongside someone else.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If Git were to sync code at regular intervals, it is likely that some of those saves would not run or compile. So manual pulls are more effective.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork can be used when I want to contribute to a reposit, but I do not have permission to it. A clone can be used to create my own local copy of a repository. A branch can be used when I want two different working versions of the same repository.
