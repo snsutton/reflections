@@ -17,3 +17,8 @@ A fork can be used when I want to contribute to a reposit, but I do not have per
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 The benefit would arise when I try to develop a repository without internet access. Then that information is available for reference as well as merges even when I'm offline.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Only other version control software would be able compete with the capabilities of Git/GitHub, however, I'm unfamiliar with comparable software. A shared Google Drive or Dropbox could not have nearly the same efficiency as specially designed version control software.
