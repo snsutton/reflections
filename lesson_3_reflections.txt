@@ -12,3 +12,8 @@ If Git were to sync code at regular intervals, it is likely that some of those s
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A fork can be used when I want to contribute to a reposit, but I do not have permission to it. A clone can be used to create my own local copy of a repository. A branch can be used when I want two different working versions of the same repository.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit would arise when I try to develop a repository without internet access. Then that information is available for reference as well as merges even when I'm offline.
